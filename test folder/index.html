@@ -20,7 +20,7 @@
         width: 100%;
       }
         .marker {
-          background-image: url('file:///E:/NGM/sahyadri-swaaz/website/Maps/mapbox-icon.png');
+          background-image: url('file:///E:/NGM/sahyadri-swaaz/website/Maps/placeholder.png');
           background-size: cover;
           width: 50px;
           height: 50px;
@@ -28,7 +28,8 @@
           cursor: pointer;
         }
         .mapboxgl-popup {
-         max-width: 200px;
+         max-width: 700px;
+         max-height: 500px
           }
 
           .mapboxgl-popup-content {
@@ -48,8 +49,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmVkZmVkdGVkIiwiYSI6ImNrOGJ3d3k0bzBkZXczZG8xN
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/light-v10',
-  center: [93.843063354492301, 7.226109981536865],
+  style: 'mapbox://styles/redfedted/ck8e152b93dol1imya6xv9yre',
+  center: [77, 24.226109981536865],
   zoom: 3
 });
 
@@ -63,7 +64,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'J.K'
+      description: 'J.K',
+      number:  '1212.'
     } 
   },
    { type: 'Feature',
@@ -73,7 +75,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Punjab'
+      description: 'Punjab',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -83,7 +86,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Delhi'
+      description: 'Delhi',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -93,7 +97,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Haryana'
+      description: 'Haryana',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -103,7 +108,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Himachal Pradesh'
+      description: 'Himachal Pradesh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -113,7 +119,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Uttarakhand'
+      description: 'Uttarakhand',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -123,7 +130,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Uttar Pradesh'
+      description: 'Uttar Pradesh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -133,7 +141,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Nagaland'
+      description: 'Nagaland',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -143,7 +152,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Manipur'
+      description: 'Manipur',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -153,7 +163,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Mizoram'
+      description: 'Mizoram',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -163,7 +174,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Tripura'
+      description: 'Tripura',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -173,7 +185,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Arunachal Pradesh'
+      description: 'Arunachal Pradesh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -183,7 +196,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Assam'
+      description: 'Assam',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -193,7 +207,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Meghalaya'
+      description: 'Meghalaya',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -203,7 +218,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Sikkim'
+      description: 'Sikkim',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -213,7 +229,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Bihar'
+      description: 'Bihar',
+      number:  '1212.'
     },
    },
    
@@ -224,7 +241,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'West Bengal'
+      description: 'West Bengal',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -234,7 +252,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Jharkhand'
+      description: 'Jharkhand',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -244,7 +263,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Rajasthan'
+      description: 'Rajasthan',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -254,7 +274,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Madhya Pradesh'
+      description: 'Madhya Pradesh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -264,7 +285,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Gujarat'
+      description: 'Gujarat',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -274,7 +296,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Odisha'
+      description: 'Odisha',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -284,7 +307,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Chhatisgarh'
+      description: 'Chhatisgarh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -294,7 +318,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Maharashtra'
+      description: 'Maharashtra',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -304,7 +329,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Goa'
+      description: 'Goa',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -314,7 +340,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Telangana'
+      description: 'Telangana',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -324,7 +351,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Andhra Pradesh'
+      description: 'Andhra Pradesh',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -334,7 +362,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Karnataka'
+      description: 'Karnataka',
+      number:  '1212.'
     },
    },
    { type: 'Feature',
@@ -344,7 +373,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Kerala'
+      description: 'Kerala',
+      number:  '1212.'
     },
    },
 
@@ -356,7 +386,8 @@ var geojson = {
     },
     properties: {
       title: 'Mapbox',
-      description: 'Tamil Nadu.'
+      description: 'Tamil Nadu',
+      number: '1212.'
     }
   }]
 };
@@ -371,7 +402,7 @@ geojson.features.forEach(function(marker) {
   new mapboxgl.Marker(el)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+    .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p><p>' + marker.properties.number + '</p>'))
     .addTo(map);
 });
 </script>
